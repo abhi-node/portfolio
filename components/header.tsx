@@ -10,7 +10,7 @@ export function Header() {
       <div className="w-full max-w-none flex h-16 items-center justify-between px-6 lg:px-8">
         <div className="flex items-center space-x-2">
           <div className="h-8 w-8 rounded-full bg-gradient-to-r from-purple-500 to-pink-500" />
-          <span className="text-xl font-bold">Portfolio</span>
+          <span className="text-xl font-bold">Abhi's Portfolio</span>
         </div>
         <nav className="hidden md:flex items-center space-x-4">
           <Button variant="ghost" size="sm" asChild>

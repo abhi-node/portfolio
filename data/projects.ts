@@ -77,7 +77,7 @@ export const projects: Project[] = [
     title: "Finance Office AI",
     description:
       "An AI-powered LibreOffice fork featuring an intelligent writing assistant for financial documents. Integrates LangGraph multi-agent systems with LibreOffice core to automate financial report generation, document analysis, and content creation through a conversational chat interface within the office suite.",
-    loomVideoId: "e5f6g7h8i9j0k1l2m3n4",
+    loomVideoId: "f549342d2dfb49f0b5de6e94a2ed94bb",
     repoUrl: "https://github.com/abhi-node/finance-office",
     technologies: ["C++", "Python", "LangGraph", "OpenAI", "LibreOffice UNO", "Multi-Agent Systems", "Qt/VCL"],
     hue: "pink",
