@@ -40,6 +40,12 @@ export function Hero() {
               <Github className="h-4 w-4" />
               @abhi-node
             </div>
+            <div className="flex items-center gap-1">
+              <Linkedin className="h-4 w-4" />
+              <a href="https://www.linkedin.com/in/abhijith-balagurusamy-46ab47248/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                LinkedIn
+              </a>
+            </div>
           </div>
           <div className="flex flex-wrap justify-center gap-2">
             {skills.map((tech) => (

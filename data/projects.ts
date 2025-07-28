@@ -33,7 +33,7 @@ export const projects: Project[] = [
     title: "WordWise",
     description:
       "An AI-powered writing companion that helps students craft clear, compelling documents with real-time guidance. Features grammar checking, style assistance, readability metrics, AI feedback generation, and research tools to turn every assignment into a learning opportunity.",
-    loomVideoId: "b2c3d4e5f6g7h8i9j0k1",
+    loomVideoId: "fd7605a5227b4794a77b876a51060d57",
     repoUrl: "https://github.com/abhi-node/wordwise",
     liveUrl: "https://wordwise-orpin.vercel.app/",
     technologies: ["Next.js", "React", "TypeScript", "TailwindCSS", "Firebase", "OpenAI GPT-4", "TipTap"],
@@ -48,7 +48,7 @@ export const projects: Project[] = [
     title: "ScioScribe",
     description:
       "An open-source AI research partner that acts as your intelligent scribe. Helps structure hypotheses, transcribes unstructured data from voice or images, and automates the generation of analyses and reports. Features multi-agent AI systems, real-time collaboration, and intelligent data cleaning.",
-    loomVideoId: "c3d4e5f6g7h8i9j0k1l2",
+    loomVideoId: "dcb3cda21d6543a799994e5599deb333",
     repoUrl: "https://github.com/ScioScribe/ScioScribe",
     technologies: ["React", "TypeScript", "FastAPI", "LangGraph", "OpenAI GPT-4", "SQLite", "WebSockets"],
     hue: "orange",
@@ -85,20 +85,5 @@ export const projects: Project[] = [
     border: "border-pink-500/30",
     accent: "text-pink-400",
     button: "bg-pink-600 hover:bg-pink-700",
-  },
-  {
-    id: 6,
-    title: "Cryptocurrency Tracker",
-    description:
-      "A real-time cryptocurrency tracking application with portfolio management, price alerts, and market analysis tools.",
-    loomVideoId: "f6g7h8i9j0k1l2m3n4o5",
-    repoUrl: "https://github.com/username/crypto-tracker",
-    liveUrl: "https://crypto-tracker-demo.vercel.app",
-    technologies: ["Next.js", "CoinGecko API", "Chart.js", "Zustand", "Framer Motion"],
-    hue: "yellow",
-    gradient: "from-yellow-500/20 to-yellow-600/20",
-    border: "border-yellow-500/30",
-    accent: "text-yellow-400",
-    button: "bg-yellow-600 hover:bg-yellow-700",
   },
 ]

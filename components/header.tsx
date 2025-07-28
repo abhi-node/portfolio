@@ -17,15 +17,17 @@ export function Header() {
             <Link href="#about">About</Link>
           </Button>
           <Button variant="ghost" size="sm" asChild>
-            <Link href="#projects">Projects</Link>
+            <Link href="#skills">Skills</Link>
           </Button>
           <Button variant="ghost" size="sm" asChild>
-            <Link href="#contact">Contact</Link>
+            <Link href="#projects">Projects</Link>
           </Button>
         </nav>
-        <Button variant="outline" size="sm" className="border-gray-700 hover:bg-gray-800 bg-transparent">
-          <Mail className="h-4 w-4 mr-2" />
-          Get in Touch
+        <Button variant="outline" size="sm" asChild className="border-gray-700 hover:bg-gray-800 bg-transparent">
+          <Link href="#contact">
+            <Mail className="h-4 w-4 mr-2" />
+            Get in Touch
+          </Link>
         </Button>
       </div>
     </header>

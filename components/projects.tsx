@@ -15,9 +15,11 @@ export function Projects() {
           </p>
         </div>
 
-        <div className="space-y-20">
-          {projects.map((project) => (
-            <ProjectCard key={project.id} project={project} />
+        <div>
+          {projects.map((project, index) => (
+            <div key={project.id} className="w-full" style={{ marginBottom: index < projects.length - 1 ? '1.5rem' : '0' }}>
+              <ProjectCard project={project} />
+            </div>
           ))}
         </div>
       </div>
