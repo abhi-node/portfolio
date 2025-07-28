@@ -6,7 +6,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: "Abhi's Portfolio",
   description: 'Computer Engineering student at University of Toronto - Portfolio showcasing projects in AI, ML, and full-stack development',
-  generator: 'Next.js',
+  generator: 'Next.js'
 }
 
 export default function RootLayout({
